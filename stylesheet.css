@@ -159,6 +159,64 @@ body {
 }
 /* Section 2 dibawah sini*/
 
+
+
+/* Section 3 dibawah sini*/
+.section3 {
+  background-color: #f0f3f6;
+  font-family: arial;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 200px;
+}
+.judul {
+  border-bottom: 4px solid #5596e6;
+  position: relative;
+  float: right;
+  margin-top: 30px;
+  margin-right: 40px;
+  margin-bottom: 150px;
+}
+
+.judul h1 {
+  display: inline-block;
+  font-size: 21px;
+}
+
+.list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-list {
+  width: 25%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.img-list img {
+  width: 50%;
+  border-radius: 100%;
+}
+
+.img-list h2 {
+  font-weight: 800;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.deskripsi {
+  font-size: 12px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .footer {
   background-color: #41d6c3;
 }
