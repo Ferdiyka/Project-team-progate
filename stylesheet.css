@@ -6,6 +6,9 @@ h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
 }
+* {
+    box-sizing: border-box;
+  }
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -48,7 +51,111 @@ body {
   background-color: #3d70b2;
 }
 /* Untuk Section 1 dan seterusnya disini */
-
+/*Top cover*/
+.top-cover{
+    width: 100%;
+    height: 910px;
+    background-image: url(https://raw.githubusercontent.com/AlifApr/Project-team-progate/main/BG%20cover%20tes%202.png);
+    background-size: cover;
+}
+.cover-copy{
+    font-size: 40px;
+    font-family: 'Arial Rounded MT';
+    color: #fff;
+    line-height: 80px;
+    letter-spacing: 2px;
+    float: left;
+    margin-left: 140px;
+    margin-top: 250px;
+}
+.cover-copy p{
+    font-weight: 200;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.book-btn{
+    color: whitesmoke;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    line-height: 40px;
+    float: left;
+    background-color: rgba(65, 214, 195, 0.8);
+    padding: 8px 25px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.book-btn:hover{
+    background-color: rgba(65, 214, 195, 1.0);
+}
+.search-bar{
+    font-family: 'Segoe UI';
+    width: 50%;
+    height: 120px;
+    position: absolute;
+    top: 860px;
+    left: 500px;
+    border-radius: 30px;
+    background-color: rgba(61, 112, 178, 1.0);
+}
+.search{
+    font-size: 20px;
+    padding: 25px 55px;
+    display: inline-block;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+.fas{
+    margin-left: 5px;
+    color: white;
+    padding: 0;
+    border: none;
+    background: none;
+}
+.input{
+    font-family: 'Arial Rounded MT';
+    margin-top: 6px;
+    margin-right: 2px;
+    font-weight: bolder;
+}
+.search-btn{
+    float: right;
+    color: whitesmoke;
+    font-size: 18px;
+    line-height: 50px;
+    background-color: rgba(65, 214, 195, 0.9);
+    padding: 10px 50px;
+    margin: 24px 70px 24px 0px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.search-btn:hover{
+    background-color: rgba(65, 214, 195, 1.0);
+}
+.form{
+    background-color: whitesmoke;
+    color: black;
+    width: 130px;
+    height: 140px;
+    position:absolute;
+    top: 55px;
+    margin-left: 30px;
+    border-radius: 15px;
+    display: none;
+}
+.location{
+    left: 8px;
+}
+.date{
+    left: 220px;
+}
+.price{
+    left: 450px;
+}
 
 .footer {
   background-color: #41d6c3;
