@@ -6,3 +6,69 @@ h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  height: 65px;
+  line-height: 65px;
+  background-color: rgba(61, 112, 178, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+}
+.header .container {
+  margin: 0 40px;
+}
+.header .logo {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 3px;
+  float: left;
+}
+.header ul {
+  float: right;
+}
+.header ul li {
+  list-style: none;
+  margin-right: 20px;
+  float: left;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  transition: all 1s;
+}
+.header a:hover {
+  background-color: #3d70b2;
+}
+/* Untuk Section 1 dan seterusnya disini */
+
+
+.footer {
+  background-color: #41d6c3;
+}
+.footer .container {
+  padding: 0 40px 25px;
+}
+.footer .NamaWebsite {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 3px;
+  border-top: 3px solid black;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.footer ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
