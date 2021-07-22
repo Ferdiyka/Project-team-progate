@@ -8,6 +8,8 @@
     <title>Travel Agent</title>
     <link rel="stylesheet" href="stylesheet.css" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <!--icon angle down-->
+    <script src="https://kit.fontawesome.com/4669a5cb24.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="header">
@@ -21,8 +23,39 @@
       </div>
     </div>
 <!-- section 1 dan seterusnya disini-->
-      
-      
+<!--Top cover-->
+     <div class="top-cover">
+        <div class="cover-img"></div>
+        <div class="cover-copy">
+            <h1>Book With Us</h1>
+            <h1>And Book It Out</h1>
+            <h1>Of Here!</h1>
+            <p>Bali trip 30% off this sunday and get free addition</p>
+            <a href="#" class="book-btn">Book now</a>
+        </div>
+        <div class="search-bar">
+            <div class="search-option">
+                <div class="search location">
+                    <p>Location<button href="#" onclick="document.getElementById('loc').style.display='block'" class="fas fa-angle-down"></button></p>
+                    <p class="input">Bali, ID</p>
+                    <div id="loc" class="location form">Coming soon</div>  
+                </div>
+                <div class="search date">
+                    <p>Date<button href="#" onclick="document.getElementById('date').style.display='block'" class="fas fa-angle-down"></button></p>
+                    <p class="input">Tue, 3 Nov</p>
+                    <div id="date" class="date form">Coming soon</div>
+                </div>
+                <div class="search price">
+                    <p>Average Price<button href="#" onclick="document.getElementById('price').style.display='block'" class="fas fa-angle-down"></button></p>
+                    <P class="input">$400-$600</P>
+                    <div id="price" class="price form">Coming soon</div>
+                </div>
+                <a href="#" class="search-btn">Search</a>
+            </div>
+        </div>
+    </div>
+    <!--Bagian destination taruh dibawah sini-->
+    
     <div class="footer">
       <div class="container">
         <h1 class="NamaWebsite">Travel Agent</h1>
